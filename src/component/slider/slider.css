@@ -1,0 +1,48 @@
+.carousel1{
+    box-sizing: border-box;
+    margin-top: 5vh;
+    width: 140vh;
+    border-radius: 33px;
+    overflow: hidden;
+}
+
+.size{
+
+  height: 80vh;
+}
+.cardSlider{
+    margin-top: 5vh;
+    background-image: url("../images/-2147483648_-210163.jpg");
+    background-size: cover;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.size{
+
+height: 40vh;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .size{
+        height: 65vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .size{
+        height: 75vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .size{height: 60vh}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .size{height: 80vh}
+}

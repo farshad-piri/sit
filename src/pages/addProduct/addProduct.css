@@ -1,0 +1,11 @@
+.formAddProduct{
+    display: block;
+    margin:0 auto;
+}
+.inputAddProduct{
+    border: none;
+    border-bottom:1px solid green ;
+}
+.inputAddProduct:focus{
+    border: none;
+}

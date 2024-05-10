@@ -1,0 +1,142 @@
+.back{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../component/images/pexels-felix-mittermeier-956999.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.register{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.registerTitle{
+    width: 150px;
+    position: absolute;
+    color: #f26f14;
+}
+.registerTitle h3{
+    text-shadow: 0 0 10px #326BD4, 0 0 20px #326BD4 ;
+}
+.registerTitle2{
+    position: absolute;
+    top: 22vh;
+    right: 5vh;
+    color: #f26f14;
+}
+.registerTitle3{
+    position: absolute;
+    top:28vh;
+    right: 5vh;
+    color: #f26f14;
+  }
+
+.registerInput input{
+    width:  75%;
+
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #f26f14;
+    border-radius: 30px;
+    position: absolute;
+    top: 38vh;
+    left: 7vh;
+    
+}
+
+.registerButton button{
+    width:  75%;
+    height: 10%;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    background-color:#f26f14;
+    color:#000000;
+    border-radius: 30px;
+    font-size: 25px;
+    box-shadow: 0 0 10px #326BD4, 0 0 20px #326BD4 ;
+    position: absolute;
+    top: 53vh;
+    left: 7vh;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {*/
+/*    .register{*/
+/*        width: 55vh;*/
+/*        height: 60vh;*/
+/*        position: relative;*/
+/*    }*/
+/*    .registerButton button{*/
+/*        position: absolute;*/
+/*        bottom: 200px;*/
+/*        width: 45vh;*/
+/*    }*/
+/*    .registerInput input{*/
+/*        width: 45vh;*/
+/*        bottom:300px;*/
+/*        position: absolute;*/
+/*    }*/
+/*}*/
+
+ /*Small devices (portrait tablets and large phones, 600px and up)*/
+/*@media only screen and (min-width: 600px) {*/
+/*    .register{*/
+/*        width: 65vh;*/
+/*        height: 60vh;*/
+/*        position: relative;*/
+/*    }*/
+/*    .registerButton button{*/
+/*        position: absolute;*/
+/*        bottom: 200px;*/
+/*        width: 45vh;*/
+/*    }*/
+/*    .registerInput input{*/
+/*        width: 45vh;*/
+/*        bottom:300px;*/
+/*        position: absolute;*/
+/*    }*/
+/*}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {*/
+/*    .register{*/
+/*        width: 65vh;*/
+/*        height: 60vh;*/
+
+
+/*    }*/
+
+
+/*}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {*/
+/*    .register{*/
+/*        width: 65vh;*/
+/*        height: 70vh;*/
+
+
+/*    }*/
+
+
+/*}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {
+    .register{
+        width: 65vh;
+        height: 70vh;
+
+    }
+    .registerButton button{
+        width: 55vh;
+    }
+}*/

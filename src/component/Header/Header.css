@@ -1,0 +1,15 @@
+.nav{
+    background-color: #f8f8f8;
+    height: 15vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+    transition: all 650ms;
+}
+.nav a:hover{
+
+    color: #f26f14;
+
+}
